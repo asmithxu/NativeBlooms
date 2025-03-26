@@ -1,12 +1,12 @@
 const plants = [
-    {name: "Bee Balm", cost: 2.99, type: "Flower", image:"/images/beebalm.jpg"},
-    {name: "Lemon Mint", cost: 2.99, type: "Flower", image:"/images/lemonmint.jpg"},
-    {name: "Aster", cost: 2.99, type: "Flower", image:"/images/aster.jpg"},
-    {name: "Sunburst", cost: 2.99, type: "Flower", image:"/images/sunburst.jpg"},
-    {name: "Virginia Bluebell", cost: 2.99, type: "Flower", image:"/images/virginiabluebell.jpg"},
-    {name: "Black Huckleberries", cost: 2.99, type: "Berry", image:"/images/blackhuckleberry.jpg"},
-    {name: "Blueberries", cost: 2.99, type: "Berry", image:"/images/blueberry.jpg"},
-    {name: "Strawberries", cost: 2.99, type: "Berry", image:"/images/strawberry.jpg"},
+    {name: "Bee Balm", cost: 2.99, type: "Flower", image:"./images/beebalm.jpg"},
+    {name: "Lemon Mint", cost: 2.99, type: "Flower", image:"./images/lemonmint.jpg"},
+    {name: "Aster", cost: 2.99, type: "Flower", image:"./images/aster.jpg"},
+    {name: "Sunburst", cost: 2.99, type: "Flower", image:"./images/sunburst.jpg"},
+    {name: "Virginia Bluebell", cost: 2.99, type: "Flower", image:"./images/virginiabluebell.jpg"},
+    {name: "Black Huckleberries", cost: 2.99, type: "Berry", image:"./images/blackhuckleberry.jpg"},
+    {name: "Blueberries", cost: 2.99, type: "Berry", image:"./images/blueberry.jpg"},
+    {name: "Strawberries", cost: 2.99, type: "Berry", image:"./images/strawberry.jpg"},
 ]
 
 function saveCartItemToLocalStorage(plantss) {
